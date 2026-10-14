@@ -1,0 +1,495 @@
+{
+  "products": [
+    {
+      "id": 8,
+      "name": "Strawberry Fresh Cream Cake",
+      "category": "Fruit Cakes",
+      "price": 799,
+      "rating": 4.7,
+      "stock": 1,
+      "image": "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=600",
+      "description": "Light vanilla sponge filled with fresh strawberries and cream."
+    },
+    {
+      "id": 9,
+      "name": "Chocolate Fudge Cake",
+      "category": "Chocolate Cakes",
+      "price": 899,
+      "rating": 4.8,
+      "stock": 0,
+      "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=600",
+      "description": "Decadent chocolate cake covered with rich chocolate fudge."
+    },
+    {
+      "id": 10,
+      "name": "Mango Cream Cake",
+      "category": "Fruit Cakes",
+      "price": 749,
+      "rating": 4.6,
+      "stock": 2,
+      "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=600",
+      "description": "Fresh mango-flavored cake layered with creamy frosting."
+    },
+    {
+      "id": 11,
+      "name": "Chocolate Cupcake (Pack of 6)",
+      "category": "Cupcakes",
+      "price": 329,
+      "rating": 4.5,
+      "stock": 6,
+      "image": "https://images.unsplash.com/photo-1587668178277-295251f900ce?w=600",
+      "description": "Moist chocolate cupcakes topped with chocolate buttercream."
+    },
+    {
+      "id": 12,
+      "name": "Vanilla Cupcake (Pack of 6)",
+      "category": "Cupcakes",
+      "price": 299,
+      "rating": 4.4,
+      "stock": 1,
+      "image": "https://images.unsplash.com/photo-1519869325930-281384150729?w=600",
+      "description": "Classic vanilla cupcakes with soft and creamy frosting."
+    },
+    {
+      "id": 13,
+      "name": "Red Velvet Cupcake (Pack of 6)",
+      "category": "Cupcakes",
+      "price": 379,
+      "rating": 4.7,
+      "stock": 14,
+      "image": "https://images.unsplash.com/photo-1586788680434-30d324b2d46f?w=600",
+      "description": "Mini red velvet cupcakes finished with cream cheese frosting."
+    },
+    {
+      "id": 14,
+      "name": "Almond Croissant (Pack of 4)",
+      "category": "Pastries",
+      "price": 399,
+      "rating": 4.6,
+      "stock": 0,
+      "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600",
+      "description": "Flaky croissants filled with delicious almond cream."
+    },
+    {
+      "id": 15,
+      "name": "Chocolate Danish Pastry",
+      "category": "Pastries",
+      "price": 249,
+      "rating": 4.3,
+      "stock": 0,
+      "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600",
+      "description": "Buttery Danish pastry filled with smooth chocolate."
+    },
+    {
+      "id": 16,
+      "name": "Cinnamon Roll (Pack of 4)",
+      "category": "Pastries",
+      "price": 329,
+      "rating": 4.6,
+      "stock": 15,
+      "image": "https://images.unsplash.com/photo-1586444248902-2f64eddc13df?w=600",
+      "description": "Soft cinnamon rolls topped with sweet vanilla glaze."
+    },
+    {
+      "id": 17,
+      "name": "Butterscotch Cake",
+      "category": "Birthday Cakes",
+      "price": 799,
+      "rating": 4.7,
+      "stock": 15,
+      "image": "https://images.unsplash.com/photo-1621303837174-89787a7d4729?w=600",
+      "description": "Creamy butterscotch cake topped with caramelized nuts."
+    },
+    {
+      "id": 18,
+      "name": "Pineapple Cream Cake",
+      "category": "Fruit Cakes",
+      "price": 699,
+      "rating": 4.4,
+      "stock": 12,
+      "image": "https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=600",
+      "description": "Soft sponge cake layered with pineapple and fresh cream."
+    },
+    {
+      "id": 19,
+      "name": "Coffee Walnut Cake",
+      "category": "Specialty Cakes",
+      "price": 849,
+      "rating": 4.6,
+      "stock": 8,
+      "image": "https://images.unsplash.com/photo-1558301211-0d8c8ddee6ec?w=600",
+      "description": "Aromatic coffee cake filled with crunchy roasted walnuts."
+    },
+    {
+      "id": 20,
+      "name": "Caramel Cheesecake",
+      "category": "Cheesecakes",
+      "price": 899,
+      "rating": 4.8,
+      "stock": 6,
+      "image": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=600",
+      "description": "Creamy cheesecake finished with a rich caramel topping."
+    },
+    {
+      "id": 21,
+      "name": "Blueberry Cheesecake",
+      "category": "Cheesecakes",
+      "price": 949,
+      "rating": 4.9,
+      "stock": 5,
+      "image": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?w=600",
+      "description": "Smooth creamy cheesecake topped with blueberry compote."
+    },
+    {
+      "id": 22,
+      "name": "Lotus Biscoff Cake",
+      "category": "Specialty Cakes",
+      "price": 999,
+      "rating": 4.9,
+      "stock": 7,
+      "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600",
+      "description": "Creamy Biscoff-flavored cake with crunchy cookie crumbs."
+    },
+    {
+      "id": 23,
+      "name": "Chocolate Brownie (Pack of 6)",
+      "category": "Brownies",
+      "price": 399,
+      "rating": 4.7,
+      "stock": 24,
+      "image": "https://images.unsplash.com/photo-1564355808539-22fda35bed7e?w=600",
+      "description": "Rich and fudgy chocolate brownies with a soft center."
+    },
+    {
+      "id": 24,
+      "name": "Nutella Brownie (Pack of 6)",
+      "category": "Brownies",
+      "price": 449,
+      "rating": 4.8,
+      "stock": 18,
+      "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=600",
+      "description": "Fudgy brownies generously topped with creamy chocolate spread."
+    },
+    {
+      "id": 25,
+      "name": "Macaron Box (Pack of 8)",
+      "category": "Desserts",
+      "price": 499,
+      "rating": 4.6,
+      "stock": 20,
+      "image": "https://images.unsplash.com/photo-1558326567-98ae2405596b?w=600",
+      "description": "Assorted French macarons with delicate shells and creamy fillings."
+    },
+    {
+      "id": 26,
+      "name": "Chocolate Mousse Cup",
+      "category": "Desserts",
+      "price": 199,
+      "rating": 4.5,
+      "stock": 30,
+      "image": "https://images.unsplash.com/photo-1579954115545-a95591f28bfc?w=600",
+      "description": "Silky smooth chocolate mousse served in an individual cup."
+    }
+  ],
+  "admins": [
+    {
+      "id": "admin001",
+      "name": "Bonvivant Admin",
+      "email": "bonvivant@gmail.com",
+      "password": "admin123"
+    }
+  ],
+  "users": [
+    {
+      "name": "sinan tp",
+      "email": "sinan@gmail.com",
+      "password": "12345678",
+      "id": 1,
+      "isBlocked": false,
+      "phone": "7902236561",
+      "address": "mankavu,kozhikkode"
+    },
+    {
+      "name": "sinan",
+      "email": "sinan@gmail.com",
+      "password": "mikku123",
+      "id": 2,
+      "isBlocked": false,
+      "phone": "6475216348",
+      "address": "kfjvbekjvbekf"
+    },
+    {
+      "name": "hari",
+      "email": "hari@gmail.com",
+      "password": "123456789",
+      "id": 3,
+      "isBlocked": false
+    }
+  ],
+  "orders": [
+    {
+      "userId": 1,
+      "customerName": "sinan tp",
+      "email": "sinan@gmail.com",
+      "phone": "6446598476",
+      "address": "ferkjhflkerjf",
+      "items": [
+        {
+          "id": 7,
+          "name": "Vanilla Cream Cake",
+          "price": 699,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600"
+        }
+      ],
+      "subtotal": 699,
+      "deliveryCharge": 50,
+      "totalAmount": 749,
+      "status": "Delivered",
+      "paymentMethod": "cod",
+      "paymentStatus": "Pending",
+      "createdAt": "2026-09-28T10:36:20.957Z",
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "customerName": "sinan tp",
+      "email": "sinan@gmail.com",
+      "phone": "7907956468",
+      "address": "cadaada",
+      "items": [
+        {
+          "id": 27,
+          "name": "aslam cake",
+          "price": 1000,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=600"
+        }
+      ],
+      "subtotal": 1000,
+      "deliveryCharge": 50,
+      "totalAmount": 1050,
+      "status": "Pending",
+      "paymentMethod": "cod",
+      "paymentStatus": "Pending",
+      "createdAt": "2026-10-01T07:29:46.347Z",
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "customerName": "sinan tp",
+      "email": "sinan@gmail.com",
+      "phone": "7832473783",
+      "address": "324883ruihlkjwendw",
+      "items": [
+        {
+          "id": 9,
+          "name": "Chocolate Fudge Cake",
+          "price": 899,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=600"
+        }
+      ],
+      "subtotal": 899,
+      "deliveryCharge": 50,
+      "totalAmount": 949,
+      "status": "Pending",
+      "paymentMethod": "cod",
+      "paymentStatus": "Pending",
+      "createdAt": "2026-10-03T04:12:19.174Z",
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "customerName": "sinan tp",
+      "email": "sinan@gmail.com",
+      "phone": "5674895643",
+      "address": "7hjbdskjhvbsdjvbds",
+      "items": [
+        {
+          "id": 9,
+          "name": "Chocolate Fudge Cake",
+          "price": 899,
+          "quantity": 2,
+          "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=600"
+        }
+      ],
+      "subtotal": 1798,
+      "deliveryCharge": 50,
+      "totalAmount": 1848,
+      "status": "Pending",
+      "paymentMethod": "cod",
+      "paymentStatus": "Pending",
+      "createdAt": "2026-10-03T04:17:07.606Z",
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "customerName": "sinan tp",
+      "email": "sinan@gmail.com",
+      "phone": "3424143234",
+      "address": "dsknfsjkfnskjf\n",
+      "items": [
+        {
+          "id": 12,
+          "name": "Vanilla Cupcake (Pack of 6)",
+          "price": 299,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1519869325930-281384150729?w=600"
+        }
+      ],
+      "subtotal": 299,
+      "deliveryCharge": 50,
+      "totalAmount": 349,
+      "status": "Pending",
+      "paymentMethod": "cod",
+      "paymentStatus": "Pending",
+      "createdAt": "2026-10-03T04:18:50.089Z",
+      "id": 5
+    },
+    {
+      "userId": 1,
+      "customerName": "sinan tp",
+      "email": "sinan@gmail.com",
+      "phone": "5743089534",
+      "address": "hjfbvhfjbvkfhv",
+      "items": [
+        {
+          "id": 9,
+          "name": "Chocolate Fudge Cake",
+          "price": 899,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=600"
+        }
+      ],
+      "subtotal": 899,
+      "deliveryCharge": 50,
+      "totalAmount": 949,
+      "status": "Pending",
+      "paymentMethod": "cod",
+      "paymentStatus": "Pending",
+      "createdAt": "2026-10-03T04:40:50.011Z",
+      "id": 6
+    },
+    {
+      "userId": 1,
+      "customerName": "sinan tp",
+      "email": "sinan@gmail.com",
+      "phone": "7902236561",
+      "address": "mankavu,kozhikkode",
+      "items": [
+        {
+          "id": 8,
+          "name": "Strawberry Fresh Cream Cake",
+          "price": 799,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=600"
+        }
+      ],
+      "subtotal": 799,
+      "deliveryCharge": 50,
+      "totalAmount": 849,
+      "status": "Pending",
+      "paymentMethod": "cod",
+      "paymentStatus": "Pending",
+      "createdAt": "2026-10-03T04:48:46.559Z",
+      "id": 7
+    },
+    {
+      "userId": 2,
+      "customerName": "mikku",
+      "email": "mikku@gmail.com",
+      "phone": "6345643436",
+      "address": "gewhdjgewkhdj",
+      "items": [
+        {
+          "id": 11,
+          "name": "Chocolate Cupcake (Pack of 6)",
+          "price": 329,
+          "quantity": 3,
+          "image": "https://images.unsplash.com/photo-1587668178277-295251f900ce?w=600"
+        }
+      ],
+      "subtotal": 987,
+      "deliveryCharge": 50,
+      "totalAmount": 1037,
+      "status": "Shipped",
+      "paymentMethod": "cod",
+      "paymentStatus": "Pending",
+      "createdAt": "2026-10-07T10:45:07.294Z",
+      "id": 8
+    },
+    {
+      "userId": 2,
+      "customerName": "mikku",
+      "email": "mikku@gmail.com",
+      "phone": "6345643436",
+      "address": "gewhdjgewkhdj",
+      "items": [
+        {
+          "id": 17,
+          "name": "Butterscotch Cake",
+          "price": 799,
+          "quantity": 10,
+          "image": "https://images.unsplash.com/photo-1621303837174-89787a7d4729?w=600"
+        }
+      ],
+      "subtotal": 7990,
+      "deliveryCharge": 50,
+      "totalAmount": 8040,
+      "status": "Pending",
+      "paymentMethod": "cod",
+      "paymentStatus": "Pending",
+      "createdAt": "2026-10-07T10:48:26.993Z",
+      "id": 9
+    },
+    {
+      "userId": 2,
+      "customerName": "mikku",
+      "email": "mikku@gmail.com",
+      "phone": "6345643436",
+      "address": "gewhdjgewkhdj",
+      "items": [
+        {
+          "id": 9,
+          "name": "Chocolate Fudge Cake",
+          "price": 899,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=600"
+        }
+      ],
+      "subtotal": 899,
+      "deliveryCharge": 50,
+      "totalAmount": 949,
+      "status": "Pending",
+      "paymentMethod": "cod",
+      "paymentStatus": "Pending",
+      "createdAt": "2026-10-08T07:09:50.480Z",
+      "id": 10
+    },
+    {
+      "userId": 1,
+      "customerName": "sinan tp",
+      "email": "sinan@gmail.com",
+      "phone": "7902236561",
+      "address": "mankavu,kozhikkode",
+      "items": [
+        {
+          "id": 8,
+          "name": "Strawberry Fresh Cream Cake",
+          "price": 799,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=600"
+        }
+      ],
+      "subtotal": 799,
+      "deliveryCharge": 50,
+      "totalAmount": 849,
+      "status": "Pending",
+      "paymentMethod": "cod",
+      "paymentStatus": "Pending",
+      "createdAt": "2026-10-08T09:19:03.866Z",
+      "id": 11
+    }
+  ]
+}

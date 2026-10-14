@@ -1,0 +1,390 @@
+@import "tailwindcss";
+
+/* ========================================
+   CUSTOM FONTS
+======================================== */
+
+@font-face {
+  font-family: "Giflika";
+  src: url("./assets/fonts/Giflika-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Boldena";
+  src: url("./assets/fonts/BoldenaBoldPersonalUse.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Font utility classes */
+
+.giflika {
+  font-family: "Giflika", serif;
+}
+
+.boldena {
+  font-family: "Boldena", serif;
+}
+
+
+/* ========================================
+   GLOBAL RESET
+======================================== */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #fffaf5;
+  color: #3a2b22;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+/* ========================================
+   FORM ELEMENTS
+======================================== */
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+
+/* ========================================
+   IMAGES
+======================================== */
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+
+/* ========================================
+   LINKS
+======================================== */
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+/* ========================================
+   SCROLLBAR
+======================================== */
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f8f5f6;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d8cfd2;
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b9adb1;
+}
+
+
+/* ========================================
+   TEXT SELECTION
+======================================== */
+
+::selection {
+  background: #f8e9ed;
+  color: #423640;
+}
+
+
+/* ========================================
+   PRODUCT GRID
+======================================== */
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(240px, 1fr)
+  );
+  gap: 1.5rem;
+}
+
+
+/* ========================================
+   TOOLBAR
+======================================== */
+
+.toolbar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.toolbar input,
+.toolbar select {
+  min-height: 42px;
+  padding: 0.6rem 0.9rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  background: #ffffff;
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.toolbar input:focus,
+.toolbar select:focus {
+  border-color: #ad4058;
+  box-shadow: 0 0 0 3px rgba(173, 64, 88, 0.12);
+}
+
+
+/* ========================================
+   PRODUCT CARD
+======================================== */
+
+.product-card {
+  overflow: hidden;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  border-radius: 16px;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+.product-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.product-card button {
+  margin: 0.25rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ad4058;
+  border-radius: 8px;
+  background: #ffffff;
+  color: #ad4058;
+  transition: all 0.2s ease;
+}
+
+.product-card button:hover {
+  background: #ad4058;
+  color: #ffffff;
+}
+
+
+/* ========================================
+   STOCK
+======================================== */
+
+.out-of-stock {
+  color: #dc2626;
+  font-weight: 600;
+}
+
+
+/* ========================================
+   PAGINATION
+======================================== */
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 2.5rem;
+}
+
+.pagination button {
+  min-width: 40px;
+  min-height: 40px;
+  padding: 0.4rem 0.8rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  background: #ffffff;
+  color: #3a2b22;
+  transition: all 0.2s ease;
+}
+
+.pagination button:hover:not(:disabled) {
+  background: #ad4058;
+  border-color: #ad4058;
+  color: #ffffff;
+}
+
+.pagination button:disabled {
+  opacity: 0.4;
+}
+
+
+/* ========================================
+   PRODUCT DETAILS
+======================================== */
+
+.product-details {
+  display: flex;
+  align-items: flex-start;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.product-details img {
+  width: 100%;
+  max-width: 450px;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+
+/* ========================================
+   CART / WISHLIST
+======================================== */
+
+.cart-row,
+.wishlist-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid #eeeeee;
+}
+
+
+/* ========================================
+   ERROR
+======================================== */
+
+.error {
+  color: #dc2626;
+  font-size: 0.9rem;
+}
+
+
+/* ========================================
+   ORDER CARD
+======================================== */
+
+.order-card {
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid #eeeeee;
+  border-radius: 14px;
+  background: #ffffff;
+  transition: box-shadow 0.2s ease;
+}
+
+.order-card:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+}
+
+
+/* ========================================
+   FOOTER
+======================================== */
+
+footer {
+  padding: 2rem;
+  text-align: center;
+  color: #8a8a8a;
+}
+
+
+/* ========================================
+   LOADER
+======================================== */
+
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 250px;
+  color: #6b7280;
+  font-size: 1rem;
+}
+
+
+/* ========================================
+   RESPONSIVE
+======================================== */
+
+@media (max-width: 768px) {
+  .product-grid {
+    grid-template-columns: repeat(
+      2,
+      minmax(0, 1fr)
+    );
+    gap: 1rem;
+  }
+
+  .product-card img {
+    height: 200px;
+  }
+
+  .product-details img {
+    max-width: 100%;
+    height: 350px;
+  }
+}
+
+@media (max-width: 480px) {
+  .product-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .toolbar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .toolbar input,
+  .toolbar select {
+    width: 100%;
+  }
+}
